@@ -161,6 +161,8 @@ body {
 
     .camera-box {
         padding: 5px;
+        width: auto;
+        height: auto;
     }
 
     #capture {
