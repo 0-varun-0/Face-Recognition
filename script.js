@@ -43,7 +43,7 @@
                 imgFolder.file(`photo${photoCount + 1}.png`, imgData.split(',')[1], { base64: true });
 
                 photoCount++;
-                setTimeout(capturePhoto, 5000); // Schedule the next photo capture after 5 seconds
+                setTimeout(capturePhoto, 1000); // Schedule the next photo capture after 5 seconds
             } else {
                 // Generate and download the zip file after capturing all photos
                 zip.generateAsync({ type: "blob" })
