@@ -136,3 +136,40 @@ body {
     border: 2px solid #333;
     border-radius: 5px;
 }
+
+@media (max-width: 480px) {
+    .nav-links {
+        justify-content: center;
+    }
+
+    .nav-links li {
+        margin-left: 5px;
+    }
+
+    .landing-content h1 {
+        font-size: 28px;
+    }
+
+    .landing-content p {
+        font-size: 16px;
+    }
+
+    .explore-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .camera-box {
+        padding: 5px;
+    }
+
+    #capture {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .photo-container img {
+        width: 60px;
+        margin: 3px;
+    }
+}
